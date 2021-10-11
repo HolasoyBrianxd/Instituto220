@@ -142,16 +142,16 @@
           <h3 class="text-center titulo-contacto">Para más información dejanos un mensaje</h3>
           <hr>
           <div class="col-md-6">
-            <input type="text" name="nombre" placeholder="Nombre" class="form-control" required id="">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control" required pattern="[a-zA-Z]+" title="Ingresa solamente letras en minúsculas o mayúsculas">
           </div>
           <div class="col-md-6">
-            <input type="text" name="apellido" placeholder="Apellido" class="form-control" required id="">
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control" required pattern="[a-zA-Z]+" title="Ingresa solamente letras en minúsculas o mayúsculas">
           </div>
           <div class="col-12">
-            <input type="email" name="mail" placeholder="Tu Mail" class="form-control" required id="">
+            <input type="email" name="mail" id="mail" placeholder="Tu Mail" class="form-control" required >
           </div>
           <div>
-            <textarea class="form-control" name="mensaje" style="height: 100px" id="" placeholder="Tu Mensaje"  required></textarea>
+            <textarea class="form-control" name="mensaje" id="mensaje" style="height: 100px" placeholder="Tu Mensaje" required></textarea>
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-contacto">Enviar</button>
