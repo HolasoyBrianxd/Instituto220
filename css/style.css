@@ -6,7 +6,7 @@ body{
 }
 /* NAVBAR */
 .navbar-color{
-    background-color:rgb(122, 112, 216);
+    background-color:rgba(43, 34, 126, 1);
 }
 /* COLOR LINK NAVBAR */
 .btn-nav{
@@ -20,7 +20,7 @@ body{
 }
 .btn-nav:hover{
     color: white;
-    background-color: #7940df;
+    background-color: #572da1;
     transition: .5s;
 }
 .color-brand{
@@ -57,12 +57,22 @@ body{
     background-color: #DFDFDE;
 }
 /* SECCION CARRERAS */
+.alineacion{
+    display: flex;
+}
+.alineacion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
 .btn-carreras{
     color: white;
     font-size: 15px;
     padding: 7px 10px;
     margin-top: 20px;
-    background-color: #7940df;
+    background-color: #572da1;
     border-radius: 5px;
     text-transform: uppercase;
     text-decoration: none;
@@ -85,7 +95,7 @@ body{
     color: white;
     font-size: 15px;
     padding: 7px 50px;
-    background-color: #7940df;
+    background-color: #572da1;
     border-radius: 5px;
     text-transform: uppercase;
     text-decoration: none;
