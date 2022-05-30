@@ -57,6 +57,9 @@ body{
     background-color: #DFDFDE;
 }
 /* SECCION CARRERAS */
+.card{
+    min-height: 430px;
+}
 .alineacion{
     display: flex;
 }
@@ -65,7 +68,15 @@ body{
     flex-direction: column;
     align-items: center;
     align-content: center;
-
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: center;
 }
 .btn-carreras{
     color: white;
