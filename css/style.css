@@ -56,8 +56,16 @@ body{
 .fondo-nosotros{
     background-color: #DFDFDE;
 }
+.minimo{
+    min-width: 350px;
+}
+@media (min-width: 360px){
+    .minimo{
+        max-width: 275px;
+    }
+}
 /* SECCION CARRERAS */
-.card{
+ .card{
     min-height: 430px;
 }
 .alineacion{
