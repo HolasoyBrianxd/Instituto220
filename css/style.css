@@ -46,9 +46,11 @@ body{
 /* BORDES DE BOTON HAMBURGUESA  */
 .navbar-light
 .navbar-toggler{
-    color: rgb(0 0 0 / 0%);;
-    border-color: rgb(0 0 0 / 0%);;
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #625c99;
 }
+
 /* AJUSTE SECCION */
 .centrar{
     padding: 50px 50px;
@@ -131,10 +133,27 @@ body{
 }
 
 /* SUB PAGINAS */
-.materias{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.titulo-materias{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+table{
     width: 100%;
     max-width: 1200px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+th, td{
+    text-align: center;
+}
+/* TABLA DE ALIMENTOS SEGUNDO AÑO */
+.orden2{
+    padding: 0;
+    margin: 0;
 }
